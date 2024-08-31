@@ -1,0 +1,24 @@
+{
+  "name": "image-detector-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon server.js"
+  },
+  "engines": {
+    "node": "20.12.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clarifai-nodejs-grpc": "^10.7.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
