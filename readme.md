@@ -41,3 +41,73 @@ Ensure you have the following installed on your machine:
    git clone https://github.com/your-username/image-recognition-app.git
    cd image-recognition-app
    ```
+
+2. Install backend dependencies:
+
+```bash
+npm install
+```
+
+3.Create a .env file in the backend directory and add your environment variables:
+
+```bash
+PORT=5000
+CLARIFAI_API_KEY=your_clarifai_api_key
+```
+
+4.Start the backend server:
+
+```bash
+npm start
+
+```
+
+### Frontend
+
+1.Navigate to the frontend directory:
+
+```bash
+cd frontend
+```
+
+2.Install frontend dependencies:
+
+```bash
+npm install
+```
+
+4.Start the frontend development server:
+
+```bash
+npm start
+```
+
+### Usage
+
+1.Open the application in your web browser:
+
+```bash
+http://localhost:3000
+```
+
+2.You can either upload an image from your local machine or provide an image URL.
+
+3.Click the "Submit" button to see the AI-powered recognition results.
+
+### Technologies Used
+
+## Frontend:
+
+- React
+- React Bootstrap
+- Axios
+
+## Backend:
+
+- Express
+- Multer (for file uploads)
+- Clarifai API (for AI image recognition)
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for any bug fixes or improvements.
