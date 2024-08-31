@@ -10,7 +10,6 @@ This is a full-stack web application for image recognition that leverages AI to 
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Demo
 
